@@ -14,10 +14,10 @@ import javax.persistence.Id;
  */
 @Entity
 public class Student {
-	@Id
+	@Id 
 	@GeneratedValue
 	private long id;
 	private String name;
-	private String password;
+	private String passportNumber;
 
 }
