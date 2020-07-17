@@ -10,14 +10,17 @@ import javax.persistence.Id;
 /**
  * @author Atul Sharma
  *
- * https://github.com/sourac
+ *         https://github.com/sourac
  */
 @Entity
 public class Student {
-	@Id 
+	@Id
 	@GeneratedValue
 	private long id;
 	private String name;
 	private String passportNumber;
+
+	public Student() {
+	}
 
 }
